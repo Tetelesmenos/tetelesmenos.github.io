@@ -1,0 +1,21 @@
+body {
+	background: black;
+}
+
+#screen {
+	border: 3px solid #666;
+	/*width: 900px;
+	height: 600px;*/
+	-ms-interpolation-mode: nearest-neighbor; /* IE 7+ (не стандартное свойство) */
+	image-rendering: -webkit-optimize-contrast; /* Safari 6, UC Browser 9.9 */
+	image-rendering: -webkit-crisp-edges; /* Safari 7+ */
+	image-rendering: -moz-crisp-edges; /* Firefox 3.6+ */
+	image-rendering: -o-crisp-edges; /* Opera 12 */
+	image-rendering: pixelated; /* Chrome 41+ and Opera 26+ */
+	margin: auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
