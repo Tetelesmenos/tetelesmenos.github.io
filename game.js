@@ -1,4 +1,3 @@
-
 var canvas = document.getElementById('screen'),
 context = canvas.getContext('2d'),
 gameEngine,
