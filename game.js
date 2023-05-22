@@ -148,28 +148,28 @@ var print = new Image();
 print.src = 'Canvas/Принтер.png';
 
 var noisekor = document.createElement ('audio');
-noisekor.src = 'Canvas/Корабль.ogg';
+noisekor.src = 'Canvas/Корабль.mp3';
 
 var spaceaudio = document.createElement ('audio');
-spaceaudio.src = 'Canvas/Космос.ogg';
+spaceaudio.src = 'Canvas/Космос.mp3';
 
 var probka = document.createElement ('audio');
-probka.src = 'Canvas/Пробка.ogg';
+probka.src = 'Canvas/Пробка.mp3';
 
 var kislota = document.createElement ('audio');
-kislota.src = 'Canvas/Кислота.ogg';
+kislota.src = 'Canvas/Кислота.mp3';
 
 var MainMenu = document.createElement ('audio');
-MainMenu.src = 'Canvas/Меню.ogg';
+MainMenu.src = 'Canvas/Меню.mp3';
 
 var Intro = document.createElement ('audio');
-Intro.src = 'Canvas/Интро.ogg';
+Intro.src = 'Canvas/Интро.mp3';
 
 var prs = document.createElement ('audio');
-prs.src = 'Canvas/Принтер.ogg';
+prs.src = 'Canvas/Принтер.mp3';
 
 var fmus = document.createElement ('audio');
-fmus.src = 'Canvas/Конец.ogg';
+fmus.src = 'Canvas/Конец.mp3';
 
 
 var izk1 = false;
@@ -1133,7 +1133,7 @@ if (probel & move<=-656 & move>=-768) {
 if (sw7 & sw8 & sw9 & sw10 & k<1500 & k>499) {
     context.drawImage (inkor, 648-((k-700)/6), 214, 216, 122, 0, 0, 864, 486);
     if (k<=1250) {
-    comix ('Мне не подчинить кристаллы без лаборатории...', 34);
+    comix ('Мне не восстановить кристаллы без лаборатории...', 34);
     mdx = 20 +50 - move;
     };
     if (k>1250) {
